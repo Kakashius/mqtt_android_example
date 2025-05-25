@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         apiClient.sendStartSession(sessionId, startTimeMs);
 
         // Register sensors
-        sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         sensorManager.registerListener(this, stepCounter,   SensorManager.SENSOR_DELAY_NORMAL);
 
         // Start location updates
