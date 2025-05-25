@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">3STechLabs IoT Starter</string>
+    <string name="app_name">RunAnalizer</string>
+    <string name="password_warning">Password should be latin characters, 14 long</string>
 </resources>
