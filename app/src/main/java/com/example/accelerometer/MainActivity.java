@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         // Sensors
         sensorManager   = (SensorManager) getSystemService(SENSOR_SERVICE);
-        accelerometer   = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         stepCounter     = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
 
         // Location Client
